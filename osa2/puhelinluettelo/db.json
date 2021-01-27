@@ -1,0 +1,24 @@
+{
+  "persons": [
+    {
+      "name": "Arto Hellas",
+      "number": "040-123456",
+      "id": 1
+    },
+    {
+      "name": "Didzis Zvaigzne",
+      "number": "0442079821",
+      "id": 2
+    },
+    {
+      "name": "Muu Rahainen",
+      "number": "12341512",
+      "id": 3
+    },
+    {
+      "name": "Testi Testaaja",
+      "number": "112",
+      "id": 4
+    }
+  ]
+}
