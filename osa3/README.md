@@ -3,7 +3,7 @@
 
 ## Back-End repository
 
-Back-end repository for the phone book [can be found here](https://pip.pypa.io/en/stable/).
+Back-end repository for the phone book [can be found here](https://github.com/didzis1/fullstackopen-2020-part3).
 
 
 ## Phone book Heroku application
