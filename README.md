@@ -17,7 +17,7 @@
 
 :white_check_mark: **Part 6** - 21 / 21
 
-:white_check_mark: **Part 6** - 21 / 21
+:white_check_mark: **Part 7** - 21 / 21
 
 :ballot_box_with_check: Part 8 - In Progress
 
