@@ -1,0 +1,53 @@
+{
+  "name": "bloglist-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.1.1",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-redux": "^7.2.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "eslint": "eslint .",
+    "cypress:open": "cypress open"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:3002",
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.4",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "autoprefixer": "^9.8.6",
+    "cypress": "^6.8.0",
+    "eslint-plugin-cypress": "^2.11.2",
+    "eslint-plugin-jest": "^24.3.2",
+    "postcss": "^7.0.35",
+    "redux-devtools-extension": "^2.13.9",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.4"
+  }
+}
