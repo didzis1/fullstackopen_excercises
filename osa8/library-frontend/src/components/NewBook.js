@@ -1,16 +1,35 @@
 import React, { useState } from 'react'
 import { useMutation } from '@apollo/client'
-import { CREATE_BOOK } from '../queries'
+import { CREATE_BOOK, ALL_BOOKS, ALL_AUTHORS } from '../queries'
 
-const NewBook = (props) => {
+const NewBook = ({ show, updateCacheWith }) => {
   const [title, setTitle] = useState('')
   const [author, setAuhtor] = useState('')
   const [published, setPublished] = useState('')
   const [genre, setGenre] = useState('')
   const [genres, setGenres] = useState([])
-  const [ createBook ] = useMutation(CREATE_BOOK)
+  const [ createBook ] = useMutation(CREATE_BOOK, {
+    refetchQueries: [ { query: ALL_AUTHORS } ],
+    onError: (error) => {
+      console.log(error)
+    },
+    update: (store, response) => {
+      updateCacheWith(response.data.addBook)
 
-  if (!props.show) {
+      // const bookDataInStore = store.readQuery({ query: ALL_BOOKS })
+      // console.log(dataInStore)
+      // console.log(response.data.allBooks)
+      // store.writeQuery({
+      //   query: ALL_BOOKS,
+      //   data: {
+      //     ...bookDataInStore,
+      //     allBooks: [ ...bookDataInStore.allBooks, response.data.addBook ]
+      //   }
+      // })
+    }
+  })
+
+  if (!show) {
     return null
   }
 
