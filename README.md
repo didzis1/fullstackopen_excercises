@@ -19,7 +19,7 @@
 
 :white_check_mark: **Part 7** - 21 / 21
 
-:ballot_box_with_check: Part 8 - In Progress
+:white_check_mark: **Part 8** - 26 / 26
 
 :ballot_box_with_check: Part 9 - In Progress
 
@@ -29,4 +29,4 @@
 
 <hr>
 
-:heavy_check_mark: **Completed exercises thus far**: 148 / 148
+:heavy_check_mark: **Completed exercises thus far**: 174 / 174
