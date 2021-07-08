@@ -23,9 +23,9 @@
 
 :ballot_box_with_check: Part 9 - In Progress
 
-:ballot_box_with_check: Part 10 - In Progress
+:ballot_box_with_check: Part 10 - Not started yet
 
-:ballot_box_with_check: Part 11 - In Progress
+:ballot_box_with_check: Part 11 - Not started yet
 
 <hr>
 
