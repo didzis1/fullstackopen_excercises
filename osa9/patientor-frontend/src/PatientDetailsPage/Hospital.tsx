@@ -9,7 +9,6 @@ interface Props {
 }
 
 const Hospital = ({ entry }: Props) => {
-	console.log(entry);
 	const [{ diagnosis }] = useStateValue();
 	return (
 		<Segment>

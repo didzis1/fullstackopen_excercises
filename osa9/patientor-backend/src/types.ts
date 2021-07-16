@@ -17,12 +17,12 @@ export interface DiagnosisEntry {
     latin?: string;
 }
 
-type SickLeave = { 
+export type SickLeave = { 
 	startDate: string;
 	endDate: string;
 }
 
-type Discharge = {
+export type Discharge = {
 	date: string;
 	criteria: string;
 }
@@ -32,7 +32,12 @@ export type Entry =
 	| OccupationalHealthCareEntry
 	| HospitalEntry;
 
-interface BaseEntry {
+export type NewEntryData = 
+	| Omit<HealthCheckEntry, "id">
+	| Omit<OccupationalHealthCareEntry, "id">
+	| Omit<HospitalEntry, "id">
+
+export interface BaseEntry {
 	id: string;
 	description: string;
 	date: string;
