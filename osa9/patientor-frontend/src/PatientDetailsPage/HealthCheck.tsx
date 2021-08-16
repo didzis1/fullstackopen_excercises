@@ -9,7 +9,6 @@ interface Props {
 }
 
 const HealthCheck = ({ entry }: Props) => {
-	console.log(entry);
 	const [{ diagnosis }] = useStateValue();
 
 	const healthRatingIcon = (rating: number) => {

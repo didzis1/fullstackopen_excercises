@@ -3,7 +3,7 @@ import axios from "axios";
 import { Button, Container } from "semantic-ui-react";
 import { useParams } from "react-router-dom";
 import { apiBaseUrl } from "../constants";
-import { Patient } from "../types";
+import { NewEntry, Patient } from "../types";
 import { useStateValue } from "../state";
 import { updatePatientList} from '../state/reducer';
 import EntryDetails from './EntryDetails';
@@ -44,6 +44,20 @@ const PatientDetailsPage = () => {
 		setError(undefined);
 	};
 
+	const submitNewPatientEntry = async (values: NewEntry) => {
+		try {
+			const { data: updatedPatientData } = await axios.post<Patient>(
+				`${apiBaseUrl}/patients/${id}/entries`,
+				values
+			);
+			dispatch(updatePatientList(updatedPatientData));
+			closeModal();
+		} catch (error) {
+			console.log(error.response?.data || 'Unknown Error');
+			setError(error.response?.data?.error || 'Unknown Error');
+		}
+	};
+
 
 	const getGenderIcon = (gender: string) => {
 		switch (gender) {
@@ -64,9 +78,10 @@ const PatientDetailsPage = () => {
 			<h1>{currentPatient.name} {getGenderIcon(currentPatient.gender)}</h1>
 			<AddEntryModal 
 				modalOpen={modalOpen}
-				onSubmit={() => console.log('hello')}
+				onSubmit={submitNewPatientEntry}
 				error={error}
 				onClose={closeModal}
+				patientId={id}
 			/>
 			<Button onClick={() => openModal()}>Add New Entry</Button>
 			<Container textAlign="left">
