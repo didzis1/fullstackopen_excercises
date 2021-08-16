@@ -21,9 +21,9 @@
 
 :white_check_mark: **Part 8** - 26 / 26
 
-:ballot_box_with_check: Part 9 - In Progress
+:white_check_mark: **Part 9** - 27 / 27
 
-:ballot_box_with_check: Part 10 - Not started yet
+:ballot_box_with_check: Part 10 - In Progress
 
 :ballot_box_with_check: Part 11 - Not started yet
 
