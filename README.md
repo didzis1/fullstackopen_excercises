@@ -23,10 +23,10 @@
 
 :white_check_mark: **Part 9** - 27 / 27
 
-:ballot_box_with_check: Part 10 - In Progress
+:white_check_mark: **Part 10** - 27/ 27 [Link to the React Native repository](https://github.com/didzis1/fullstackopen-react-native)
 
 :ballot_box_with_check: Part 11 - Not started yet
 
 <hr>
 
-:heavy_check_mark: **Completed exercises thus far**: 174 / 174
+:heavy_check_mark: **Completed exercises thus far**: 201/223
