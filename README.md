@@ -27,7 +27,7 @@
 
 :white_check_mark: **Part 11** - 22/22 [Link to CI/CD repository](https://github.com/didzis1/full-stack-open-cicd-bloglist)
 
-☑ Part 12 - 0/22 - In Progress
+☑ Part 12 - 3/22 - In Progress
 
 <hr>
 
