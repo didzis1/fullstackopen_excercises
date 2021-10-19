@@ -11,7 +11,7 @@ const pubsub = new PubSub()
 
 const JWT_SECRET = 'THIS_IS_A_VERY_SECRET_KEY'
 
-const MONGODB_URI = 'mongodb+srv://fullstack:dgx98dragon15@cluster0.uwaiv.mongodb.net/library-app?retryWrites=true&w=majority'
+const MONGODB_URI = 'mongodb+srv://fullstack:secret@cluster0.uwaiv.mongodb.net/library-app?retryWrites=true&w=majority'
 
 console.log('Connecting to ', MONGODB_URI)
 
