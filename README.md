@@ -23,13 +23,13 @@
 
 :white_check_mark: **Part 9** - 27 / 27
 
-:white_check_mark: **Part 10** - 27/ 27 [Link to the React Native repository](https://github.com/didzis1/fullstackopen-react-native)
+:white_check_mark: **Part 10** - 27 / 27 [Link to the React Native repository](https://github.com/didzis1/fullstackopen-react-native)
 
-:white_check_mark: **Part 11** - 22/22 [Link to CI/CD repository](https://github.com/didzis1/full-stack-open-cicd-bloglist)
+:white_check_mark: **Part 11** - 22 / 22 [Link to CI/CD repository](https://github.com/didzis1/full-stack-open-cicd-bloglist)
 
-:white_check_mark: **Part 12** - 22/22 [Link to Containers repository](https://github.com/didzis1/full-stack-open-containers)
+:white_check_mark: **Part 12** - 22 / 22 [Link to Containers repository](https://github.com/didzis1/full-stack-open-containers)
   
-:white_check_mark: **Part 13** - 24/24 [Link to the SQL repository](https://github.com/didzis1/full-stack-open-sql)
+:white_check_mark: **Part 13** - 24 / 24 [Link to the SQL repository](https://github.com/didzis1/full-stack-open-sql)
 
 <hr>
 
