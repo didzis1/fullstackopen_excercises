@@ -27,7 +27,7 @@
 
 :white_check_mark: **Part 11** - 22/22 [Link to CI/CD repository](https://github.com/didzis1/full-stack-open-cicd-bloglist)
 
-⏳ Part 12 - 13/22 - In Progress  
+:white_check_mark: **Part 12** - 22/22 [Link to Containers repository](https://github.com/didzis1/full-stack-open-containers)
   
 :white_check_mark: **Part 13** - 24/24 [Link to the SQL repository](https://github.com/didzis1/full-stack-open-sql)
 
@@ -46,6 +46,9 @@
 
 ### Part 11
 ![Part 11](https://studies.cs.helsinki.fi/stats/api/certificate/fs-cicd/en/a5fb251f4404d9e13cae17d2eb14b971)
+
+### Part 12
+![Part 12](https://studies.cs.helsinki.fi/stats/api/certificate/fs-containers/en/d268c4bd18fdcc7b421fb9bfcf90f1d6)
 
 ### Part 13
 ![Part 13](https://studies.cs.helsinki.fi/stats/api/certificate/fs-psql/en/fcf6dba0952230a98ba36ff2c9cb7012)
